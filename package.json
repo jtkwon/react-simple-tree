@@ -1,0 +1,23 @@
+{
+  "name": "react-simple-tree",
+  "version": "1.0.0",
+  "description": "Simple React Tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtkwon/react-simple-tree.git"
+  },
+  "keywords": [
+    "React",
+    "Tree"
+  ],
+  "author": "Jeff Kwon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtkwon/react-simple-tree/issues"
+  },
+  "homepage": "https://github.com/jtkwon/react-simple-tree#readme"
+}

@@ -2,12 +2,13 @@
 
 Simple tree library to work with react.
 
-###Supports
+### Supports
 
 1. Async
 2. Custom icons
 3. Drag and drop
-
+  
+Git Page Link: [https://jtkwon.github.io/react-simple-tree/]
 **Author:** Jeff Kwon
 
 Licensed under ISC

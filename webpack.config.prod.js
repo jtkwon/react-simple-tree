@@ -17,7 +17,7 @@ module.exports = {
     filename: "[name].js",
     path: BUILD_DIR,
     publicPath: BUILD_DIR,
-    library: "simple-react-tree",
+    library: "react-simple-tree",
     libraryTarget: "umd"
   },
   plugins: [new CleanWebpackPlugin()],

@@ -25,7 +25,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "simple-react-tree"
+      title: "react-simple-tree"
     }),
     new HtmlWebpackRootPlugin()
   ],

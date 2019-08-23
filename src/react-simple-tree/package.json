@@ -1,0 +1,24 @@
+{
+  "name": "react-simple-tree",
+  "version": "1.0.0",
+  "description": "React Simple Tree",
+  "author": "Jeff Kwon",
+  "license": "ISC",
+  "main": "simple-react-tree.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtkwon/react-simple-tree.git"
+  },
+  "keywords": [
+    "react",
+    "tree",
+    "react-simple-tree"
+  ],
+  "bugs": {
+    "url": "https://github.com/jtkwon/react-simple-tree/issues"
+  },
+  "homepage": "https://jtkwon.github.io/react-simple-tree/",
+  "dependencies": {
+    "react": "16.9.0"
+  }
+}

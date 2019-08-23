@@ -1,10 +1,10 @@
 {
   "name": "react-simple-tree",
   "version": "1.0.0",
-  "description": "Simple React Tree",
+  "description": "React Simple Tree",
   "author": "Jeff Kwon",
   "license": "ISC",
-  "main": "build/simple-react-tree.js",
+  "main": "build/react-simple-tree.js",
   "directories": {
     "build": "build"
   },

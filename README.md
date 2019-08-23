@@ -1,5 +1,5 @@
 # react-simple-tree
---
+-
 
 Simple tree library to work with react.
 
@@ -11,5 +11,5 @@ Simple tree library to work with react.
 
 **Author:** Jeff Kwon
 
---
+-  
 Licensed under ISC

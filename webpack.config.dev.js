@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackRootPlugin = require("html-webpack-root-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-const APP_DIR = path.resolve(__dirname, "src");
+const APP_DIR = path.resolve(__dirname, "src/docs");
 const DOCS_DIR = path.resolve(__dirname, "docs");
 
 module.exports = {

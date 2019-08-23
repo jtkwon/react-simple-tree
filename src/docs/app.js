@@ -1,9 +1,11 @@
 import React from "react";
+// internal
+import { Navigation } from "./components";
 
-const App = props => {
+const App = () => {
   return (
     <div>
-      <h1>simple-react-tree</h1>
+      <Navigation title="react-simple-tree" />
     </div>
   );
 };

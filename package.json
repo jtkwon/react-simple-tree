@@ -11,7 +11,7 @@
   "scripts": {
     "build-docs": "webpack --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js",
-    "start": "webpack-dev-server --open --config webpack.config.dev.js"
+    "start": "webpack-dev-server --open --config webpack.config.js --port 3000"
   },
   "repository": {
     "type": "git",

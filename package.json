@@ -2,26 +2,45 @@
   "name": "react-simple-tree",
   "version": "1.0.0",
   "description": "Simple React Tree",
-  "main": "index.js",
+  "author": "Jeff Kwon",
+  "license": "ISC",
+  "main": "build/simple-react-tree.js",
+  "directories": {
+    "build": "build"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-docs": "webpack --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "start": "webpack-dev-server --open --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jtkwon/react-simple-tree.git"
   },
   "keywords": [
-    "React",
-    "Tree"
+    "react",
+    "tree"
   ],
-  "author": "Jeff Kwon",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jtkwon/react-simple-tree/issues"
   },
-  "homepage": "https://github.com/jtkwon/react-simple-tree#readme",
+  "homepage": "https://jtkwon.github.io/react-simple-tree/",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-root-plugin": "^0.10.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
   }
 }

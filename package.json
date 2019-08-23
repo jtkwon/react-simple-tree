@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/jtkwon/react-simple-tree/issues"
   },
-  "homepage": "https://github.com/jtkwon/react-simple-tree#readme"
+  "homepage": "https://github.com/jtkwon/react-simple-tree#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
 }

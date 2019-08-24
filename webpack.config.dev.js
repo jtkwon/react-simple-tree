@@ -26,7 +26,9 @@ module.exports = {
     pathinfo: false
   },
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ["!fontawesome/*"]
+    }),
     new HtmlWebpackPlugin({
       title: "react-simple-tree",
       template: APP_DIR + "/index.html"

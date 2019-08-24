@@ -1,5 +1,5 @@
 .root {
-  display: flex;
+  display: inline-flexbox;
   position: absolute;
   left: 0;
   top: 0;

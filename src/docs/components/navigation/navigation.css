@@ -6,6 +6,7 @@
   height: 50px;
   color: #fff;
   background-color: #01579b;
+  background-image: linear-gradient(to right, #002f6c, #01579b);
 }
 
 .title {
@@ -42,6 +43,6 @@
 }
 
 .contacts .contactLabel .label {
-  margin-left: 3px;
+  margin-left: 5px;
   vertical-align: bottom;
 }

@@ -31,7 +31,7 @@ const navigation = props => {
             color: "#0077B5",
             boxShadow: "0px 0px 0px 2px #01579b inset",
             backgroundColor: "#fff",
-            marginLeft: "5px"
+            marginLeft: "10px"
           }}
         />
       </div>

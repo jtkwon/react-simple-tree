@@ -27,10 +27,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "react-simple-tree",
-      template: APP_DIR + "/index.html",
-      meta: {
-        viewport: "width=device-width, initial-scale=1"
-      }
+      template: APP_DIR + "/index.html"
     }),
     new HtmlWebpackRootPlugin()
   ],

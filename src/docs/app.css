@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+  font-family: "Open Sans", sans-serif;
+}

@@ -1,7 +1,13 @@
 import React from "react";
 // css
 import "./main.css";
+// internal
+import ReactSimpleTree from "../../../react-simple-tree/react-simple-tree";
 
 export default props => {
-  return <div className="main">HELLO<br/>THIS IS GOING TO BE THE MAIN</div>;
+  return (
+    <div className="main">
+      <ReactSimpleTree />
+    </div>
+  );
 };

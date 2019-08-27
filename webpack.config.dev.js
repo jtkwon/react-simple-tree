@@ -4,12 +4,14 @@ const HtmlWebpackRootPlugin = require("html-webpack-root-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 const APP_DIR = path.resolve(__dirname, "src/docs");
+const RST_DIR = path.resolve(__dirname, "src/react-simple-tree");
 const DOCS_DIR = path.resolve(__dirname, "docs");
 
 module.exports = {
   mode: "development",
   entry: {
-    docs: APP_DIR + "/index.js"
+    docs: APP_DIR + "/index.js",
+    reactSimpleTree: RST_DIR + "/react-simple-tree.js"
   },
   devtool: "inline-source-map",
   devServer: {
@@ -40,7 +42,7 @@ module.exports = {
       {
         test: /(\.jsx|\.js)$/,
         exclude: [/(node_modules|bower_components)/],
-        include: APP_DIR,
+        include: [APP_DIR, RST_DIR],
         loader: "babel-loader",
         options: {
           presets: ["@babel/env", "@babel/preset-react"]

@@ -1,7 +1,13 @@
 import React from "react";
 
-const reactSimpleTree = props => {
-  return null;
-};
+class ReactSimpleTree extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
-export default reactSimpleTree;
+  render() {
+    return <div>TEST</div>;
+  }
+}
+
+export default ReactSimpleTree;

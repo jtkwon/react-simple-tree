@@ -19,6 +19,9 @@
   },
   "homepage": "https://jtkwon.github.io/react-simple-tree/",
   "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "prop-types": "15.7.2",
     "react": "16.9.0"
   }
 }

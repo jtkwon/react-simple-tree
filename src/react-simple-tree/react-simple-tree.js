@@ -1,13 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-class ReactSimpleTree extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return <div>TEST</div>;
-  }
-}
+const ReactSimpleTree = props => {
+  return <div>TEST</div>;
+};
 
 export default ReactSimpleTree;

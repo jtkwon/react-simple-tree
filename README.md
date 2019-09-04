@@ -1,6 +1,9 @@
 # react-simple-tree
 
-Simple tree library to work with react.
+Simple tree library to work with React.
+
+### Dependencies
+- Material-UI, prop-types, react
 
 ### Supports
 

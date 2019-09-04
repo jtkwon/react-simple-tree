@@ -1,0 +1,38 @@
+[
+  {
+    "id": 4,
+    "type": "mobile",
+    "label": "iPhone X",
+    "children": []
+  },
+  {
+    "id": 5,
+    "type": "mobile",
+    "label": "iPhone 10",
+    "children": []
+  },
+  {
+    "id": 6,
+    "type": "mobile",
+    "label": "iPhone XS",
+    "children": []
+  },
+  {
+    "id": 7,
+    "type": "mobile",
+    "label": "Galaxy Note 10",
+    "children": []
+  },
+  {
+    "id": 8,
+    "type": "mobile",
+    "label": "Galaxy 10",
+    "children": []
+  },
+  {
+    "id": 9,
+    "type": "mobile",
+    "label": "A50",
+    "children": []
+  }
+]

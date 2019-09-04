@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "type": "electronic",
+  "label": "Mobile",
+  "children": [2, 3]
+}

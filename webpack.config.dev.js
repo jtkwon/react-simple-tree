@@ -29,7 +29,12 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ["!fontawesome/*"]
+      cleanOnceBeforeBuildPatterns: [
+        "!fontawesome/*",
+        "!sample-brand.json",
+        "!sample-data.json",
+        "sample-mobile.json"
+      ]
     }),
     new HtmlWebpackPlugin({
       title: "react-simple-tree",
